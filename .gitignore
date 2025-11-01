@@ -1,0 +1,35 @@
+# Ignore dataset folders
+train/
+test/
+val/
+
+# Ignore model weights (if too large)
+
+
+# Ignore Python cache and temporary files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Streamlit cache
+.streamlit/
+.streamlit-cache/
+cache/
+
+# Ignore virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Ignore log files
+*.log
+
