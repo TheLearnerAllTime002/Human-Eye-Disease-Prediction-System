@@ -181,6 +181,7 @@ elif page == "📊 Analysis":
         
         if uploaded_file is not None:
             st.image(uploaded_file, caption="Uploaded OCT Scan", use_container_width=True)
+    # rest of the analysis code
     
     with col2:
         if uploaded_file is not None:
@@ -254,3 +255,5 @@ elif page == "📚 About Dataset":
 # Footer
 st.markdown("---")
 st.markdown("**Developed by Arjun** | Powered by TensorFlow & Streamlit 🚀")
+
+
