@@ -89,7 +89,7 @@ The trained MobileNetV3-based classifier demonstrates excellent performance acro
 **Weighted Avg:** Precision 0.96, Recall 0.96, F1-Score 0.96  
 **Total Samples:** 10933
 
-<h2 align="center">4.2 Confusion Matrix</h2>
+<h2>4.2 Confusion Matrix</h2>
 
 <p align="center">
   <img src="https://github.com/TheLearnerAllTime002/Human-Eye-Disease-Prediction-System/blob/main/output.png" alt="Confusion Matrix" width="500"/>
