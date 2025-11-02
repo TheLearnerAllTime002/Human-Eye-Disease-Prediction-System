@@ -114,7 +114,7 @@ def model_prediction(uploaded_file, model):
 # ---------------------------
 
 # Header
-st.markdown("# **OCT Retinal Analysis Platform** 👁️")
+st.markdown("# **OCT Retinal Analysis Platform** ")
 
 # Sidebar
 with st.sidebar:
