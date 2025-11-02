@@ -178,13 +178,15 @@ elif page == "📊 Analysis":
             type=["jpg", "jpeg", "png"],
             help="Upload a high-quality OCT scan in JPG, JPEG, or PNG format"
         )
-        
-        if uploaded_file is not None:
-            st.image(uploaded_file, caption="Uploaded OCT Scan", use_container_width=True)
-    # rest of the analysis code
     
-    with col2:
-        if uploaded_file is not None:
+    if uploaded_file is not None:
+        with col1:
+            try:
+                st.image(uploaded_file, caption="Uploaded OCT Scan", use_container_width=True)
+            except:
+                st.image(uploaded_file, caption="Uploaded OCT Scan", width=400)
+        
+        with col2:
             with st.spinner("🔍 Analyzing OCT scan..."):
                 label, confidence, all_predictions = model_prediction(uploaded_file, model)
             
@@ -249,11 +251,9 @@ elif page == "📚 About Dataset":
 
     Optical coherence tomography (OCT) images (Spectralis OCT, Heidelberg Engineering, Germany) were selected from retrospective cohorts of adult patients from the Shiley Eye Institute of the University of California San Diego, the California Retinal Research Foundation, Medical Center Ophthalmology Associates, the Shanghai First People's Hospital, and Beijing Tongren Eye Center between July 1, 2013 and March 1, 2017.
 
-    Before training, each image went through a tiered grading system consisting of multiple layers of trained graders of increasing expertise for verification and correction of image labels. Each image imported into the database started with a label matching the most recent diagnosis of the patient. The first tier of graders consisted of undergraduate and medical students who had taken and passed an OCT interpretation course review. This first tier of graders conducted initial quality control and excluded OCT images containing severe artifacts or significant image resolution reductions. The second tier of graders consisted of four ophthalmologists who independently graded each image that had passed the first tier. The presence or absence of choroidal neovascularization (active or in the form of subretinal fibrosis), macular edema, drusen, and other pathologies visible on the OCT scan were recorded. Finally, a third tier of two senior independent retinal specialists, each with over 20 years of clinical retina experience, verified the true labels for each image.
+    Before training, each image went through a tiered grading system consisting of multiple layers of trained graders of increasing expertise for verification and correction of image labels.
     """)
 
 # Footer
 st.markdown("---")
 st.markdown("**Developed by Arjun** | Powered by TensorFlow & Streamlit 🚀")
-
-
