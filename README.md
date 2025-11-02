@@ -90,10 +90,7 @@ The trained MobileNetV3-based classifier demonstrates excellent performance acro
 **Total Samples:** 10933
 
 ### 4.2 Confusion Matrix Analysis
-```python
-# High diagonal values indicate strong classification performance
-# Minimal inter-class confusion demonstrates robust feature learning
-```
+confusion matrix(https://github.com/TheLearnerAllTime002/Human-Eye-Disease-Prediction-System/blob/main/output.png)
 
 ### 4.3 Training Dynamics
 - **Convergence**: 18 epochs (early stopping triggered)
