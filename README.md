@@ -2,7 +2,7 @@
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://oct-analyzer-ai.streamlit.app)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.15.0-FF6F00.svg)](https://www.tensorflow.org/)
-[![License: MIT](https://img.shields.io/badge/License-Apache 2.0-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-Apache-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Abstract
 This research presents an automated diagnostic system for retinal disease classification using Optical Coherence Tomography (OCT) imaging. Leveraging transfer learning with MobileNetV3 architecture, the system achieves robust performance in multi-class classification of retinal pathologies including Choroidal Neovascularization (CNV), Diabetic Macular Edema (DME), Drusen, and Normal retinal tissue. The web-based deployment facilitates real-time inference, making advanced diagnostic capabilities accessible to healthcare professionals.
