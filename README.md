@@ -98,15 +98,12 @@ model = tf.keras.Sequential([
 | NORMAL | 0.99 | 1.00 | 0.99 | 250 |
 
 ### 4.2 Confusion Matrix Analysis
-![Confusion Matrix](https://via.placeholder.com/600x500?text=Confusion+Matrix+Placeholder)
+![Confusion Matrix](https://github.com/TheLearnerAllTime002/Human-Eye-Disease-Prediction-System/blob/main/output.png)
 
 **Key Observations:**
 - Minimal confusion between disease classes
 - Highest confusion: DRUSEN → CNV (8 misclassifications)
 - No confusion between NORMAL and diseased states
-
-### 4.3 Training Dynamics
-![Training History](https://via.placeholder.com/800x400?text=Training+Curves+Placeholder)
 
 **Training Insights:**
 - Convergence achieved by epoch 15
