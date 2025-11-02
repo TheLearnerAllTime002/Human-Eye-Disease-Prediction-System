@@ -89,8 +89,12 @@ The trained MobileNetV3-based classifier demonstrates excellent performance acro
 **Weighted Avg:** Precision 0.96, Recall 0.96, F1-Score 0.96  
 **Total Samples:** 10933
 
-### 4.2 Confusion Matrix Analysis
-confusion matrix(https://github.com/TheLearnerAllTime002/Human-Eye-Disease-Prediction-System/blob/main/output.png)
+<h2 align="center">4.2 Confusion Matrix</h2>
+
+<p align="center">
+  <img src="https://github.com/TheLearnerAllTime002/Human-Eye-Disease-Prediction-System/blob/main/output.png" alt="Confusion Matrix" width="500"/>
+</p>
+
 
 ### 4.3 Training Dynamics
 - **Convergence**: 18 epochs (early stopping triggered)
@@ -262,7 +266,6 @@ Data Science & Machine Learning Researcher
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/arjun-mitra-2761a9260/)  
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=flat&logo=github)](https://github.com/TheLearnerAllTime002)
 
-**Profile**: Specializing in computer vision applications for medical imaging, with focus on developing accessible AI-driven diagnostic tools for healthcare.
 
 ## 12. Contact
 For questions, collaborations, or feedback:
